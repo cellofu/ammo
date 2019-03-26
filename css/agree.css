@@ -1,0 +1,246 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/*------------------------------------ 變數目錄 --------------------------------------*/
+/*---------------------------- 基本變數 ----------------------------------------------*/
+/*---------------------------- 背景設定 ----------------------------------------------*/
+/*---------------------------- 文字屬性 ----------------------------------------------*/
+/*---------------------------- BOX 區塊屬性 ------------------------------------------*/
+/*---------------------------- 各類選單屬性 -------------------------------------------*/
+/*---------------------------- 基本變數 ----------------------------------------------*/
+/*---------------------------- 基本變數 end ------------------------------------------*/
+/*---------------------------- 背景設定 ----------------------------------------------*/
+/*---------------------------- 背景設定 end ------------------------------------------*/
+/*---------------------------- 文字屬性 ----------------------------------------------*/
+/*---------------------------- 文字屬性 end ------------------------------------------*/
+/*---------------------------- BOX 區塊屬性 ------------------------------------------*/
+/*---------------------------- BOX 區塊屬性 end --------------------------------------*/
+/*---------------------------- 各類選單屬性 -------------------------------------------*/
+/*---------------------------- 各類選單屬性 end ---------------------------------------*/
+/*agree 同意頁面-------------------------------------------------start*/
+/* 頁面寬度 */
+body {
+  font-size: 12px;
+  font-family: STHeiti, "Microsoft YaHei", "微软雅黑", "SimSun", "宋体", arial;
+}
+
+.rules-body {
+  width: 800px;
+  margin: 0 auto;
+  clear: both;
+}
+
+.agree-title {
+  text-align: center;
+}
+
+.agree-btn {
+  position: relative;
+  text-align: center;
+}
+.agree-btn a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.agree-list {
+  position: relative;
+  text-align: center;
+}
+.agree-list a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.agree-content {
+  overflow: hidden;
+}
+.agree-content ol {
+  display: block;
+  list-style-type: decimal;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+  padding: 0 20px;
+}
+.agree-content ol li {
+  width: 96%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.agree-content h2 {
+  text-align: center;
+  width: 800px;
+}
+.agree-content h3 {
+  text-align: center;
+  width: 800px;
+}
+.agree-content .agree-link {
+  clear: both;
+  float: right;
+}
+.agree-content .agree-link a {
+  text-decoration: none;
+  margin: 0 25px 0 0;
+}
+
+.agree-copyright {
+  text-align: center;
+}
+
+/*agree 同意頁面-------------------------------------------------end*/
+/*以下開放編譯*/
+/*背景色*/
+.agree body {
+  background: url('../image/agree_bg.jpg?1467871648') no-repeat center 175px;
+  background-color: #080A17;
+  margin: 0 auto;
+}
+
+#agree-bg {
+  background: url('../image/head_bg_x.jpg?1467775012') repeat-x center top;
+}
+
+.agree-container {
+  background-color: #0F1126;
+  border: 1px solid #1B1E3E;
+  margin-bottom: 10px;
+}
+
+/*logo*/
+#logo-bg #logo {
+  width: 800px;
+  height: 131px;
+  margin: 0 auto;
+  background: url('../image/rule_logo.png') no-repeat center top;
+}
+
+/*協議與規則*/
+.agree-title {
+  font-size: 18px;
+  line-height: 46px;
+  color: #616794;
+  color: #6C3F0E;
+  height: 46px;
+}
+
+/*同意與不同意按鈕*/
+.agree-btn a {
+  margin: 17px 16px;
+  font: 16px/36px "微软雅黑";
+  color: #6C3F0F;
+  font-weight: bold;
+}
+.agree-btn a.left, .agree-btn a.right {
+  width: 110px;
+  height: 35px;
+  background: url('../image/agree_btn.png?1467870272') no-repeat;
+}
+.agree-btn a.left:hover, .agree-btn a.right:hover {
+  background-position: bottom;
+}
+.agree-btn a:hover {
+  color: #9f0000;
+}
+
+/*同意頁面-選單按鈕*/
+.agree-list {
+  margin: 15px 0 20px 0;
+}
+.agree-list a {
+  font-size: 12px;
+  line-height: 22px;
+  color: #FFD800;
+  margin: 0 4px;
+  padding: 2px 15px;
+  text-decoration: underline;
+}
+.agree-list a:hover {
+  color: #fff;
+}
+
+.agree-content {
+  font-size: 13px;
+  line-height: 24px;
+  color: #616794;
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+.agree-link a {
+  font-size: 13px;
+  line-height: 24px;
+  color: #616794;
+  color: #fff;
+}
+
+.footer-bg {
+  margin-top: 38px;
+  min-height: 66px;
+  background-color: #101226;
+  border-top: 1px solid #362c23;
+}
+
+.agree-copyright {
+  font-size: 12px;
+  line-height: 80px;
+  color: #616794;
+  color: #4E516F;
+}
